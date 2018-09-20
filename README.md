@@ -124,7 +124,11 @@ $ sudo apt-get install ubuntu-desktop -y
 
 $ sudo reboot
  
-а затем  
+а затем  устанавливаем Remmina, следующими командами:
+
+sudo apt-add-repository ppa:remmina-ppa-team/remmina-next
+sudo apt-get update
+sudo apt-get install remmina remmina-plugin-rdp
 Все Удачи!
 
 ****************************************
