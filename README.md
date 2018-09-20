@@ -32,7 +32,7 @@ $ apt-get update      — обновить доступные обновлени
 $ apt-get upgrade     — обновить все пакеты
 
 # Далее установите пакеты из главного репозитория:
-
+$ sudo apt-get install lubuntu-desktop совместить.
 $    sudo apt-get install --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal   vnc4server
 
 * Для завершения начальной конфигурации VNC-сервера выполните команду:
