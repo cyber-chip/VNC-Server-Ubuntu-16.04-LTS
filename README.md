@@ -19,6 +19,7 @@ Gnome - (GNU Network Object Model Environment) представляет собо
 * Чтобы добавить нового пользователя 
 
 $ sudo adduser newuser
+
 *Для смены пароля пользователя используем команду:
 
  $ passwd
