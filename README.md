@@ -51,18 +51,3 @@ metacity &
 nautilus &
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
