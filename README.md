@@ -90,6 +90,7 @@ $ vncserver
 
 $ iptables -A INPUT -p tcp --dport 59XX -j ACCEPT
 
+
 $ iptables-save
 
 # Проверка VNC
