@@ -102,7 +102,9 @@ $ iptables-save
 Далее можете настраивать на любой VNC клиент.
 Если используете Windows рекомендую программу TightVNC
 
-https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-32bit.msi
+https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-32bit.msi    - 32bit
+
+https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-64bit.msi    - 64bit  
 
 Устанавливаем и запускаем TightVNC Viewer 
 
