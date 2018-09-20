@@ -12,9 +12,9 @@ Gnome - (GNU Network Object Model Environment) представляет собо
 
 # Установка VNC Server и рабочего окружения GNOME
 
-*Для поднятия сервера можете использовать удобным ресурсом https://www.vultr.com/?ref=7489180 обслуживание сервера вам обойдется от 2 до 5 $
+* Для поднятия сервера можете использовать удобным ресурсом https://www.vultr.com/?ref=7489180 обслуживание сервера вам обойдется от 2 до 5 $
 
-*Для создания и смены пароля root есть следующие команды:
+* Для создания и смены пароля root есть следующие команды:
 
 * Чтобы добавить нового пользователя 
 
@@ -28,7 +28,7 @@ $ sudo adduser newuser
 
 $ sudo apt-get update
 
-#Далее установите пакеты из главного репозитория:
+# Далее установите пакеты из главного репозитория:
 
 $    sudo apt-get install --no-install-recommends ubuntu-desktop gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal   vnc4server
 
