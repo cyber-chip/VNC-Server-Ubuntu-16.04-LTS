@@ -110,3 +110,34 @@ https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-32bit.msi
 xxx.xxx.xxx.xxx:5901 Connect и пароль.
 Теперь заходим по VNC и устанвливаем приложения для вашего Юзера!
 Все Удачи!
+Для того чтобы включить root на вашем юзере делаем следующее.
+* создаем файлы 
+
+$  sudo mkdir -p /etc/vncserver
+
+$  sudo touch /etc/vncserver/vncservers.conf
+
+$  sudo vim /etc/vncserver/vncservers.conf
+
+Заполняем файл.
+
+$ nano /etc/vncserver/vncservers.conf
+
+VNCSERVERS="1:root"
+
+VNCSERVERARGS[1]="-geometry 1920x1080"
+
+VNCSERVERS="2:guest"
+
+VNCSERVERARGS[2]="-geometry 800x600 -SecurityTypes None"
+
+
+
+
+
+
+
+
+
+
+
