@@ -98,3 +98,13 @@ $ iptables-save
 
 Для первой проверки сгодится программа для андроида Desktop169 чтобы убидится, что у Вас все работает.
 Далее можете настраивать на любой VNC клиент.
+Если используете Windows рекомендую программу TightVNC
+
+https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-32bit.msi
+
+Устанавливаем и запускаем TightVNC Viewer 
+
+В строке Remote Host: прописываем ваш ip и порт 5901
+xxx.xxx.xxx.xxx:5901 Connect и пароль.
+
+Все Удачи!
