@@ -108,5 +108,5 @@ https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-32bit.msi
 
 В строке Remote Host: прописываем ваш ip и порт 5901
 xxx.xxx.xxx.xxx:5901 Connect и пароль.
-
+Теперь заходим по VNC и устанвливаем приложения для вашего Юзера!
 Все Удачи!
