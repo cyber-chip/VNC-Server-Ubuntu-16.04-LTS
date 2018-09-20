@@ -110,6 +110,10 @@ https://www.tightvnc.com/download/2.8.11/tightvnc-2.8.11-gpl-setup-32bit.msi
 xxx.xxx.xxx.xxx:5901 Connect и пароль.
 Теперь заходим по VNC и устанвливаем приложения для вашего Юзера!
 Все Удачи!
+
+****************************************
+
+
 Для того чтобы включить root на вашем юзере делаем следующее.
 * создаем файлы 
 
@@ -130,6 +134,33 @@ VNCSERVERARGS[1]="-geometry 1920x1080"
 VNCSERVERS="2:guest"
 
 VNCSERVERARGS[2]="-geometry 800x600 -SecurityTypes None"
+
+**************************************
+
+# ОБНОВЛЕНИЕ ИЛИ УСТАНОВКА FIREFOX
+
+$ sudo apt install firefox
+
+$ sudo apt update
+
+$ sudo apt upgrade
+
+# УСТАНОВКА ВЕРСИИ ДЛЯ РАЗРАБОТЧИКОВ
+
+Если у Вас стоит уже firefox Удалите его, а затем уже только устанавливайте версию для разработчиков.
+
+$ sudo apt remove firefox
+
+Сразу после выхода одной версии, разработчики начинают работать над новой версией, которая содержит все самые новые возможности и технологии. Если вы хотите получить версию для разработчиков, то вам придется использовать ppa.
+
+Для добавления PPA в систему выполните:
+
+$ sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora
+
+$ sudo apt-get update
+
+$ sudo apt install firefox
+
 
 
 
